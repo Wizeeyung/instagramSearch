@@ -1,0 +1,81 @@
+.nav-tab button:first-child{
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+
+
+}
+
+.nav-tab{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 10%;
+  background-color: white;
+  margin-bottom: 40px;
+}
+
+.nav-tab button img{
+  width: 130px;
+}
+
+.nav-links ul{
+  display: flex;
+  list-style: none;
+}
+
+.nav-links ul li{
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  transition: all 0.2s ease;
+}
+
+.nav-links ul li:hover{
+  transform: scale(1.1);
+}
+
+.nav-links ul li a{
+  text-decoration: none;
+  color: black;
+  margin-left: 5px;
+}
+
+.nav-links{
+  display: flex;
+  align-items: center;
+}
+
+.nav-links button{
+  margin-left: 20px;
+  border: none;
+  background-color: #4f92ec;
+  padding: 5px 12px;
+  color: white;
+  border-radius: 3px;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.nav-links button:hover{
+  background-color: #679fe8;
+}
+
+
+
+
+/* responsiveness */
+@media all and (max-width: 400px) {
+  .nav-links{
+    display: none;
+  }
+
+  .nav-tab button img{
+    width: 90px;
+  }
+
+  nav.nav-tab{
+    margin-bottom: 20px;
+  }
+}

@@ -1,0 +1,89 @@
+.postcontainer{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  /* flex-basis: 40%; */
+  border: 1px solid gray;
+  background-color: white;
+  width: 40%;
+  /* min-width: 80%; */
+  margin: auto;
+  padding: 20px 0;
+  box-sizing: border-box;
+  border-radius: 3px;
+  margin-bottom: 30px;
+}
+
+.postcontainer img:nth-child(2){
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+
+  padding: 0;
+  margin: 0;
+  margin-bottom: 15px;
+}
+.icons{
+  margin-bottom: 10px;
+  padding-left: 20px;
+}
+
+.icons button{
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.icons .icon{
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+.postcontainer .profile-name p{
+  font-size: 14px;
+  margin-left: 10px;
+  font-weight: 800;
+}
+
+.postcontainer .profile-name{
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  padding-left: 20px;
+}
+
+.postcontainer p.likes{
+  margin: 0;
+  font-weight: 800;
+  padding-left: 20px;
+}
+
+
+.postcontainer .profile-name img{
+  width: 30px;
+  border-radius: 50%;
+
+}
+
+
+
+
+
+/* mobile responsiveness */
+@media all and (max-width: 400px) {
+  .postcontainer{
+    width: 100%;
+   margin: 0;
+   margin-bottom: 15px;
+
+  }
+
+  li.postcontainer{
+    margin-right: 0;
+  }
+
+
+  
+}

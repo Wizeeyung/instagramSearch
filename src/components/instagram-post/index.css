@@ -1,0 +1,77 @@
+.main-post{
+  width: 100%;
+}
+
+ul{
+  padding-left: 0 ;
+}
+
+.failure{
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.failure button{
+  background-color: #4f92ec;
+  border: none;
+  padding: 5px 12px;
+  color: white;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.failure img{
+  width: 100%;
+  border-radius: 5px;
+}
+
+.failure p{
+  text-align: center;
+}
+
+.input-container{
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+  width: 100%;
+  justify-content: center;
+
+  
+}
+
+.input-container input{
+  width: 35%;
+  border: none;
+  font-size: 12px;
+  height: 30px;
+  padding: 10px;
+  border-radius: 3px 0 0 3px;
+}
+.input-container button{
+  width: 5%;
+  border: none;
+  padding: 0 10px;
+  border-radius: 0 3px 3px 0;
+  cursor: pointer;
+}
+
+
+
+
+
+/* responsiveness */
+@media all and (max-width: 400px) {
+  ul{
+    padding-left: 0;
+  }
+  .input-container button{
+    width: 15%;
+  }
+
+  .input-container input{
+    width: 60%;
+    height: 25px;
+    font-size: 10px;
+  }
+}
